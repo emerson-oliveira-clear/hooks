@@ -1,6 +1,7 @@
 import React from 'react'
 import './Menu.css'
 
+
 const Menu = props => (
 
     <aside className='Menu'>
@@ -41,11 +42,6 @@ const Menu = props => (
                 <li>
                     <a href="/Ref">Ref</a>
                 </li>
-                
-                <li>
-                    <a href="/State">State</a>
-                </li>
-                
                 
                 
             </ul>

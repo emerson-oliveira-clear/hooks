@@ -30,7 +30,7 @@ const Content = props => {
 
         <Route path="/effect" element={<Effect />} />
 
-        <Route path="/callbeck" element={<Callback />} />
+        <Route path="/callback" element={<Callback />} />
 
         <Route path="/context" element={<Context />} />
 
@@ -42,7 +42,7 @@ const Content = props => {
 
         <Route path="/ref" element={<Ref />} />
 
-        <Route exact path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
 
 
       </Routes>

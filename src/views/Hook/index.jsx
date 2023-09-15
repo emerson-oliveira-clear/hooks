@@ -1,9 +1,6 @@
 
 import React, { useState } from 'react'
 
-
-
-
 const Hook = props => {
 
     const [n1, setN1] = useState(0)
@@ -22,7 +19,6 @@ const Hook = props => {
                 <input type="number" className='input'
                     value={n2} onChange={e => setN2(parseInt(e.target.value))} />
 
-
                 <input type="number" className='input'
                     value={n3} onChange={e => setN3(parseInt(e.target.value))} />
 
@@ -31,6 +27,7 @@ const Hook = props => {
         </div>
 
     )
+    
 }
 
 export default Hook
